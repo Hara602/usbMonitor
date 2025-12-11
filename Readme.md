@@ -51,3 +51,6 @@ usbMonitor/
 # 运行命令
 
 `go run cmd/monitor/main.go`
+
+
+test github ssh
