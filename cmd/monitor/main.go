@@ -6,9 +6,9 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/usbMonitor/internal/core"
-	linux_monitor "github.com/usbMonitor/internal/monitor/linux"
-	"github.com/usbMonitor/pkg/logging"
+	"github.com/Hara602/usbMonitor/internal/core"
+	linux_monitor "github.com/Hara602/usbMonitor/internal/monitor/linux"
+	"github.com/Hara602/usbMonitor/pkg/logging"
 )
 
 func main() {

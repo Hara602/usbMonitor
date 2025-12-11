@@ -14,6 +14,7 @@
 
 # 目录结构
 
+```text
 usbMonitor/
 ├── cmd/
 │   └── monitor/
@@ -22,7 +23,7 @@ usbMonitor/
 │   ├── core/             # 核心业务逻辑 (平台无关)
 │   │   ├── engine.go     # 核心引擎，启动所有监控器
 │   │   └── correlator.go # 日志关联器
-│   ├── monitor/          # 【优化重点】监控适配器层
+│   ├── monitor/          # 监控适配器层
 │   │   ├── monitor.go    # 定义所有监控器接口 (e.g., DeviceMonitor Interface)
 │   │   ├── linux/        # 仅限 Linux 的实现代码 (使用 Go Build Tag)
 │   │   │   ├── device.go     # 实现 DeviceMonitor (使用 udev/sysfs)
@@ -37,6 +38,7 @@ usbMonitor/
 ├── go.mod
 ├── go.sum
 └── README.md
+```
 
 # 功能
 

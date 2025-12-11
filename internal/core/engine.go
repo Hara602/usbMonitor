@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/usbMonitor/internal/monitor"
-	"github.com/usbMonitor/pkg/event"
+	"github.com/Hara602/usbMonitor/internal/monitor"
+	"github.com/Hara602/usbMonitor/pkg/event"
 )
 
 type Engine struct {

@@ -1,4 +1,4 @@
-module github.com/usbMonitor
+module github.com/Hara602/usbMonitor
 
 go 1.25.4
 

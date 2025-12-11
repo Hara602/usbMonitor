@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/usbMonitor/pkg/event"
+	"github.com/Hara602/usbMonitor/pkg/event"
 )
 
 type DeviceMonitor struct {
